@@ -1,14 +1,11 @@
-# SPOTIFY_CLIENT_ID = "2d927344faa14e1c94820bf99e7b362f"
-# SPOTIFY_CLIENT_SECRET = "6f3448d037434b9886c861e23f25e6e2"
-
 import webbrowser
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pyttsx3
 
 # Initialize Spotify API credentials
-SPOTIFY_CLIENT_ID = "2d927344faa14e1c94820bf99e7b362f"
-SPOTIFY_CLIENT_SECRET = "6f3448d037434b9886c861e23f25e6e2"
+SPOTIFY_CLIENT_ID = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+SPOTIFY_CLIENT_SECRET = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 spotify = spotipy.Spotify(
     auth_manager=SpotifyClientCredentials(client_id=SPOTIFY_CLIENT_ID, client_secret=SPOTIFY_CLIENT_SECRET)
